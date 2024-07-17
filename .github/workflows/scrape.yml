@@ -20,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip3 install -r requirements.txt
 
       - name: Run scraping script
         run: |
-          python3 web_scraping_v2.py
+          python3 alboPretorioFeed_v2.py
 
       - name: Commit and push changes
         run: |
