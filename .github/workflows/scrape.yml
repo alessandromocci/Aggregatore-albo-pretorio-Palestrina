@@ -2,7 +2,8 @@ name: Scrape and Commit Feed
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Esegui ogni giorno alle 2:00 AM UTC
+    - cron: '0 12 * * *' # Esegui ogni giorno a mezzogiorno
+    - cron: '0 18 * * *' # Esegui ogni giorno alle 18:00
   workflow_dispatch:
 
 jobs:
