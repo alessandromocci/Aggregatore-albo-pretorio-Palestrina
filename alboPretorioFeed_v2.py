@@ -32,8 +32,10 @@ def extract_data_from_page(soup, channel):
         ET.SubElement(item, "description").text = oggetto
         ET.SubElement(item, "pubDate").text = periodo_pubblicazione+"+0000"
         ET.SubElement(item, "link").text = link
-        #ET.SubElement(item, "guid").text = link
-        ET.SubElement(item, "guid", isPermaLink="true").text = link
+        #guid puo avere come valore anche unidentificatore univoco anzichè un link e ciò serve per fare in modo che il lettore
+        #feed non riconosca ogni volta le vecchie voci come nuove
+        #ET.SubElement(item, "guid", isPermaLink="true").text = link
+        ET.SubElement(item, "guid", isPermaLink="false").text = numero_registrazione
         ET.SubElement(item, "atom:link", href=link, rel="via", type="text/html", title="Fonte Originale")
 
 # Funzione per ottenere il contenuto HTML di una pagina specifica
