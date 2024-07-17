@@ -22,7 +22,7 @@ Iscrivendovi ai nostri RSS feed, potrete:
 - Risparmiare tempo senza dover controllare manualmente il sito.
 - Assicurarsi di non perdere nessuna pubblicazione importante.
 
-## Come fare per imanere aggiornati?
+## Come fare per rimanere aggiornati?
 
 Di seguito, vi guiderò affinché possiate installare un'applicazione, sui vostri smartphone (Android o iOS) e sul browser del vostro PC, che vi consenta di ricevere in tempo reale gli ultimissimi aggiornamenti pubblicati sull'albo pretorio. 
 
