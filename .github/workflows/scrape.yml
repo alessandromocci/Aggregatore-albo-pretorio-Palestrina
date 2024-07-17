@@ -1,0 +1,38 @@
+name: Scrape and Commit Feed
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Esegui ogni giorno alle 2:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraping script
+        run: |
+          python3 web_scraping_v2.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "ci-bot@example.com"
+          git config --global user.name "CI Bot"
+          git add feed.xml
+          git commit -m "Aggiornamento feed.xml"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
