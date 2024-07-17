@@ -46,7 +46,7 @@ def get_page_content(url, data=None):
 
 # URL base del sito web originale
 base_url = "https://palestrina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap?p_auth=6pinQXV5&p_p_id=jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet_action=eseguiPaginazione"
-sitoFeed_url = "http://www.miosito.com/feed.xml"
+sitoFeed_url = "https://alessandromocci.github.io/Aggregatore-albo-pretorio-Palestrina/feed.xml"
 # Ottieni il numero totale di pagine
 initial_soup = get_page_content(base_url)
 div_pagination = initial_soup.find("div", class_="pagination pagination-centered")
@@ -81,6 +81,11 @@ if div_pagination:
             # Scrive il contenuto RSS su un file
             tree = ET.ElementTree(rss)
             tree.write("feed.xml", encoding="utf-8", xml_declaration=True)
+
+            # Aggiungi una nuova riga alla fine del file
+            with open("feed.xml", "a") as f:
+                f.write("\n")
+            
             print("Scraping completato e feed RSS creato.")
         else:
             print("Elemento 'li' con classe 'active' non trovato.")
