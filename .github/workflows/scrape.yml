@@ -27,7 +27,13 @@ jobs:
         run: |
           python3 alboPretorioFeed_v2.py
 
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --exit-code feed.xml
+          
       - name: Commit and push changes
+        if: steps.changes.outcome != 'success'
         run: |
           git config --global user.email "ci-bot@example.com"
           git config --global user.name "CI Bot"
