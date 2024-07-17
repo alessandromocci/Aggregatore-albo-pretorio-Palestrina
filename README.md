@@ -6,7 +6,7 @@ Qui troverete tutte le informazioni necessarie riguardanti le nuove pubblicazion
 
 Per rimanere sempre aggiornati, vi invitiamo a registrarvi ai nostri RSS feed. Gli RSS feed vi permetteranno di ricevere automaticamente gli ultimi aggiornamenti direttamente nel vostro lettore di feed preferito, senza dover visitare manualmente il sito.
 
-## Come Iscriversi
+## Come Iscriversi:
 
 È semplice iscriversi ai nostri RSS feed! Basta cliccare sul link sottostante:
 
