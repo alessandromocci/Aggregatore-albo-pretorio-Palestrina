@@ -2,8 +2,12 @@ name: Scrape and Commit Feed
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Esegui ogni giorno a mezzogiorno
-    - cron: '0 18 * * *' # Esegui ogni giorno alle 18:00
+    - cron: '0 9 * * *'  # UTC(09:00) -> Italia: ora standard (CET = UTC+1): 09:00 UTC è 10:00 CET; ora legale (CEST, UTC+2): 09:00 UTC è 11:00 CEST
+    - cron: '0 11 * * *' # UTC(11:00) -> Italia: ora standard (CET = UTC+1): 11:00 UTC è 12:00 CET; ora legale (CEST, UTC+2): 11:00 UTC è 13:00 CEST
+    - cron: '0 13 * * *' # UTC(13:00) -> Italia: ora standard (CET = UTC+1): 13:00 UTC è 14:00 CET; ora legale (CEST, UTC+2): 13:00 UTC è 15:00 CEST
+    - cron: '0 15 * * *' # UTC(15:00) -> Italia: ora standard (CET = UTC+1): 15:00 UTC è 16:00 CET; ora legale (CEST, UTC+2): 15:00 UTC è 17:00 CEST
+    - cron: '0 17 * * *' # UTC(17:00) -> Italia: ora standard (CET = UTC+1): 17:00 UTC è 18:00 CET; ora legale (CEST, UTC+2): 17:00 UTC è 19:00 CEST
+    
   workflow_dispatch:
 
 jobs:
