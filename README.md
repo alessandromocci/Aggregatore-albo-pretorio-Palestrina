@@ -22,6 +22,30 @@ Iscrivendovi ai nostri RSS feed, potrete:
 - Risparmiare tempo senza dover controllare manualmente il sito.
 - Assicurarsi di non perdere nessuna pubblicazione importante.
 
+### Orari degli aggiornamenti
+
+Le notifiche di eventuali nuove pubblicazioni, sono state schedulate tutti i giorni ai seguenti orari UTC (Coordinated Universal Time):
+- UTC(09:00)
+   - in Italia 09:00 UTC corrisponde alle:
+      - 10:00 CET (ora standard: CET = UTC+1);
+      - 11:00 CEST (ora legale: CEST = UTC+2);
+- UTC(11:00)
+   - Italia 11:00 UTC corrisponde alle:
+      - 12:00 CET (ora standard: CET = UTC+1);
+      - 13:00 CEST (ora legale: CEST = UTC+2);
+- UTC(13:00)
+   - Italia 13:00 UTC corrisponde alle:
+      - 14:00 CET (ora standard: CET = UTC+1);
+      - 15:00 CEST (ora legale: CEST = UTC+2);
+- UTC(15:00)
+   - Italia 15:00 UTC corrisponde alle:
+      - 16:00 CET (ora standard: CET = UTC+1);
+      - 17:00 CEST (ora legale: CEST = UTC+2);
+- UTC(17:00)
+   - Italia 17:00 UTC corrisponde alle:
+      - 18:00 CET (ora standard: CET = UTC+1);
+      - 19:00 CEST (ora legale: CEST = UTC+2);
+
 ## Come fare per rimanere aggiornati?
 
 Di seguito, vi guiderò affinché possiate installare un'applicazione, sui vostri smartphone (Android o iOS) e sul browser del vostro PC, che vi consenta di ricevere in tempo reale gli ultimissimi aggiornamenti pubblicati sull'albo pretorio. 
