@@ -1,4 +1,5 @@
 import requests
+from urllib.parse import urlparse, urlunparse
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -24,7 +25,11 @@ def extract_data_from_page(soup, channel):
         periodo_pubblicazione = convert_to_rfc822(periodo_pubblicazione.split()[0])
 
         # Estrazione del primo link
-        link = row.find("a", class_="master-detail-list-link-a")['href']
+        anchor_link = row.find("a", class_="master-detail-list-link-a")['href']
+        # Parsing della URL
+        parsed_url = urlparse(anchor_link)
+        # Ricostruzione della URL senza la query string
+        link = urlunparse((parsed_url.scheme, parsed_url.netloc, parsed_url.path, parsed_url.params, '', ''))
 
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = numero_registrazione
