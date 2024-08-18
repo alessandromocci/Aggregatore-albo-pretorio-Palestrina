@@ -6,14 +6,6 @@ Qui troverete tutte le informazioni necessarie riguardanti le nuove pubblicazion
 
 Per rimanere sempre aggiornati, vi invitiamo a registrarvi ai nostri RSS feed. Gli RSS feed vi permetteranno di ricevere automaticamente gli ultimi aggiornamenti direttamente nel vostro lettore di feed preferito, senza dover visitare manualmente il sito.
 
-## Come Iscriversi:
-
-È semplice iscriversi ai nostri RSS feed! Basta cliccare sul link sottostante:
-
-[Iscriviti al nostro Feed RSS](./feed.xml)
-
-Una volta iscritti, riceverete tutte le ultime notifiche relative alle nuove pubblicazioni sull'Albo Pretorio.
-
 ## Perché Iscriversi?
 
 Iscrivendovi ai nostri RSS feed, potrete:
@@ -21,30 +13,6 @@ Iscrivendovi ai nostri RSS feed, potrete:
 - Ricevere notifiche immediate sugli aggiornamenti.
 - Risparmiare tempo senza dover controllare manualmente il sito.
 - Assicurarsi di non perdere nessuna pubblicazione importante.
-
-### Orari degli aggiornamenti
-
-Le notifiche di eventuali nuove pubblicazioni, sono state schedulate tutti i giorni ai seguenti orari UTC (Coordinated Universal Time):
-- UTC(09:00)
-   - in Italia 09:00 UTC corrisponde alle:
-      - 10:00 CET (ora standard: CET = UTC+1);
-      - 11:00 CEST (ora legale: CEST = UTC+2);
-- UTC(11:00)
-   - Italia 11:00 UTC corrisponde alle:
-      - 12:00 CET (ora standard: CET = UTC+1);
-      - 13:00 CEST (ora legale: CEST = UTC+2);
-- UTC(13:00)
-   - Italia 13:00 UTC corrisponde alle:
-      - 14:00 CET (ora standard: CET = UTC+1);
-      - 15:00 CEST (ora legale: CEST = UTC+2);
-- UTC(15:00)
-   - Italia 15:00 UTC corrisponde alle:
-      - 16:00 CET (ora standard: CET = UTC+1);
-      - 17:00 CEST (ora legale: CEST = UTC+2);
-- UTC(17:00)
-   - Italia 17:00 UTC corrisponde alle:
-      - 18:00 CET (ora standard: CET = UTC+1);
-      - 19:00 CEST (ora legale: CEST = UTC+2);
 
 ## Come fare per rimanere aggiornati?
 
@@ -114,5 +82,29 @@ Grazie e buona navigazione!
 
 ## Conclusione
 Ora sei pronto per ricevere aggiornamenti direttamente dal sito tramite il feed RSS sia sul tuo dispositivo mobile che sul tuo computer. Buona lettura!
+
+### Orari degli aggiornamenti
+
+Le notifiche di eventuali nuove pubblicazioni, sono state schedulate tutti i giorni ai seguenti orari UTC (Coordinated Universal Time):
+- UTC(09:00)
+   - in Italia 09:00 UTC corrisponde alle:
+      - 10:00 CET (ora standard: CET = UTC+1);
+      - 11:00 CEST (ora legale: CEST = UTC+2);
+- UTC(11:00)
+   - Italia 11:00 UTC corrisponde alle:
+      - 12:00 CET (ora standard: CET = UTC+1);
+      - 13:00 CEST (ora legale: CEST = UTC+2);
+- UTC(13:00)
+   - Italia 13:00 UTC corrisponde alle:
+      - 14:00 CET (ora standard: CET = UTC+1);
+      - 15:00 CEST (ora legale: CEST = UTC+2);
+- UTC(15:00)
+   - Italia 15:00 UTC corrisponde alle:
+      - 16:00 CET (ora standard: CET = UTC+1);
+      - 17:00 CEST (ora legale: CEST = UTC+2);
+- UTC(17:00)
+   - Italia 17:00 UTC corrisponde alle:
+      - 18:00 CET (ora standard: CET = UTC+1);
+      - 19:00 CEST (ora legale: CEST = UTC+2);
 
 
